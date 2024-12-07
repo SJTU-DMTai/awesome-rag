@@ -31,4 +31,4 @@ This is a repo contains a list of papers about RAG, especially RAG with Knowledg
 |2023-10-17|ICLR 24|[Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection](https://arxiv.org/abs/2310.11511)|[Yes](https://github.com/AkariAsai/self-rag)|
 |2023-12-05|Arxiv|[Large Language Models on Graphs: A Comprehensive Survey](https://arxiv.org/abs/2312.02783)|No|
 |2023-12-11|Arxiv|[KnowGPT: Knowledge Graph based Prompting for Large Language Models](https://arxiv.org/abs/2312.06185)|No|
-|2023-12-18|Arxiv|[Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997)|No|
+|2023-12-18|Arxiv|[Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997)|No|*The survey outlines the evolution of RAG through three paradigms: Naive RAG, Advanced RAG, and Modular RAG. It meticulously examines the three foundational components of RAG frameworks, which include retrieval, generation, and augmentation techniques. The paper highlights the state-of-the-art technologies embedded in each of these components, offering a profound understanding of the advancements in RAG systems.*|
