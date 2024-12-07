@@ -8,6 +8,8 @@ Recently, **Retrieval-Augmented Generation (RAG)** has achieved remarkable succe
 
 Combining RAG with **Knowledge Graphs (KGs)** emerges as a promising solution to address these challenges. KGs can offer a structured and explicit representation of entities and relationships that are more accurate than retrieving information through vector similarity. Leveraging external structured knowledge graphs can improve contextual understanding of LLMs and generate more informed responses. The entire process typically contains three stages: Indexing, Retrieval and Generation. The overall pipline is as follows.
 
+Pic needed to add...coming soon...
+
 We collect the recent influential papers about RAG especially RAG with KGs. The following papers are listed in chronological order of publication.
 
 
@@ -40,3 +42,8 @@ We collect the recent influential papers about RAG especially RAG with KGs. The 
 |2023-12-05|Arxiv|[Large Language Models on Graphs: A Comprehensive Survey](https://arxiv.org/abs/2312.02783)|No|
 |2023-12-11|Arxiv|[KnowGPT: Knowledge Graph based Prompting for Large Language Models](https://arxiv.org/abs/2312.06185)|No|
 |2023-12-18|Arxiv|[Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997)|No|*The survey outlines the evolution of RAG through three paradigms: Naive RAG, Advanced RAG, and Modular RAG. It meticulously examines the three foundational components of RAG frameworks, which include retrieval, generation, and augmentation techniques. The paper highlights the state-of-the-art technologies embedded in each of these components, offering a profound understanding of the advancements in RAG systems.*|
+
+## Benchmark
+|Date|Venue|Title|Code|Description|
+|:-----:|:------:|:------------:|:----:|:-----:|
+|2024-06-07|NeurIPS 2024|[CRAG -- Comprehensive RAG Benchmark](https://arxiv.org/abs/2406.04744)|[Yes](https://github.com/facebookresearch/crag)|*CRAG is designed to encapsulate a diverse array of questions across five domains and eight question categories, reflecting varied entity popularity from popular to long-tail, and temporal dynamisms ranging from years to seconds*|
