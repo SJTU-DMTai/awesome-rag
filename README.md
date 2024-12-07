@@ -1,7 +1,14 @@
 # Awesome RAG Papers
-This is a repo contains a list of papers about RAG, especially RAG with Knowledge Graph
+This is a repo contains a list of papers about RAG, especially RAG with Knowledge Graphs
 
 # Introduction
+**Large language models (LLMs)** have demonstrated impressive reasoning abilities in complex tasks. However, they lack up-to-date knowledge and experience hallucinations during reasoning, which can lead to incorrect reasoning processes and diminish their performance and trustworthiness.
+
+Recently, **Retrieval-Augmented Generation (RAG)** has achieved remarkable success in addressing the challenges of LLMs without necessitating retraining. By referencing an external knowledge base, RAG refines LLM outputs, effectively mitigating issues such as “hallucination”, lack of domain-specific knowledge, and outdated information. But in some practical scenarios, traditional RAG fails to capture significant structured relational knowledge, often recounts content in the form of text when concatenated as prompts and fails to grasp global information comprehensively.
+
+Combining RAG with **Knowledge Graphs (KGs)** emerges as a promising solution to address these challenges. KGs can offer a structured and explicit representation of entities and relationships that are more accurate than retrieving information through vector similarity. Leveraging external structured knowledge graphs can improve contextual understanding of LLMs and generate more informed responses. The entire process typically contains three stages: Indexing, Retrieval and Generation. The overall pipline is as follows.
+
+We collect the recent influential papers about RAG especially RAG with KGs. The following papers are listed in chronological order of publication.
 
 
 # Paper List
@@ -18,6 +25,7 @@ This is a repo contains a list of papers about RAG, especially RAG with Knowledg
 |2024-05-08|EMNLP 2024|[DALK: Dynamic Co-Augmentation of LLMs and KG to answer Alzheimer's Disease Questions with Scientific Literature](https://arxiv.org/abs/2405.04819)|[Yes](https://github.com/david-li0406/dalk)|
 |2024-05-10|KDD 24|[A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models](https://arxiv.org/abs/2405.06211)|No|
 |2024-05-13|Arxiv|[Evaluation of Retrieval-Augmented Generation: A Survey](https://arxiv.org/abs/2405.07437)|[Yes](https://github.com/yhpeter/awesome-rag-evaluation)|
+|2024-05-20|Arxiv|[KG-RAG: Bridging the Gap Between Knowledge and Creativity](https://arxiv.org/abs/2405.12035)|[Yes](https://github.com/BaranziniLab/KG_RAG)|
 |2024-05-23|Arxiv|[HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models](https://arxiv.org/abs/2405.14831)|[Yes](https://github.com/OSU-NLP-Group/HippoRAG)|*Need to review*|
 |2024-05-26|Arxiv|[GRAG: Graph Retrieval-Augmented Generation](https://arxiv.org/abs/2405.16506)|No|
 |2024-07-20|Arxiv|[Golden-Retriever: High-Fidelity Agentic Retrieval Augmented Generation for Industrial Knowledge Base](https://arxiv.org/abs/2408.00798)|No|
