@@ -34,6 +34,9 @@ We collect the recent influential papers about RAG especially RAG with KGs. The 
 |2024-08-09|Arxiv|[HybridRAG: Integrating Knowledge Graphs and Vector Retrieval Augmented Generation for Efficient Information Extraction](https://arxiv.org/abs/2408.04948)|No|
 | 2024-08-15 | Arxiv | [Graph Retrieval-Augmented Generation: A Survey](https://arxiv.org/abs/2408.08921)| No |*This paper provides an overview of GraphRAG, a methodology that enhances language models by integrating knowledge graphs to improve retrieval accuracy and contextual responses. It details the GraphRAG workflow, from indexing to retrieval and generation, and discusses its applications and future research directions, highlighting its potential across various domains.*|
 |2024-10-08|Arxiv|[LightRAG: Simple and Fast Retrieval-Augmented Generation](https://arxiv.org/abs/2410.05779)|[Yes](https://github.com/HKUDS/LightRAG)|*This paper proposes a system that integrates graph structures into text indexing and retrieval to address the limitations of existing RAG systems in handling complex interdependencies between entities. The system includes an incremental update algorithm to ensure timely integration of new data, keeping the system effective in rapidly changing data environments.*|
+|2024-10-23|Arxiv|[Graphusion: A RAG Framework for Knowledge Graph Construction with a Global Perspective](https://arxiv.org/abs/2410.17600)|No|
+|2024-10-28|Arxiv|[Simple is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation](https://arxiv.org/abs/2410.20724)|[Yes](https://github.com/graph-com/subgraphrag)|
+
 
 ## 2023
 |Date|Venue|Title|Code|Description|
