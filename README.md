@@ -15,6 +15,9 @@ We collect the recent influential papers about RAG especially RAG with KGs. The 
 |Date|Venue|Title|Code|Category|
 |:---:|:---:|:---:|:---:|:---:|
 |2025-02-08|NAACL 2025|[Knowledge Graph-Guided Retrieval Augmented Generation](https://arxiv.org/abs/2502.06864)|[Yes](https://github.com/nju-websoft/KG2RAG)|Graphs for Knowledge Indexing & Graphs as Knowledge Carrier|
+|2025-02-06|The ACM Web Conference 2025|[MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot](https://arxiv.org/abs/2502.04413)|[Yes](https://github.com/SNOWTEAM2023/MedRAG?tab=readme-ov-file)||
+|2024-12-17|Arxiv|[SimGRAG: Leveraging Similar Subgraphs for Knowledge Graphs Driven Retrieval-Augmented Generation](https://arxiv.org/abs/2412.15272)|[Yes](https://github.com/YZ-Cai/SimGRAG)||
+|2024-05-23|NeurIPS 2024|[HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models](https://arxiv.org/abs/2405.14831)|[Yes](https://github.com/OSU-NLP-Group/HippoRAG)||
 |2024-04-24|Arxiv|[From Local to Global: A Graph RAG Approach to Query-Focused Summarization](https://arxiv.org/abs/2404.16130)|[Yes](https://github.com/microsoft/graphrag)|*Graphs as Knowledge Carrier & <br /> Knowledge Graph Construction from Corpus*|
 
 
@@ -24,6 +27,7 @@ We collect the recent influential papers about RAG especially RAG with KGs. The 
 |:---:|:---:|:---:|:---:|
 |2024-12-31|Arxiv|[Retrieval-Augmented Generation with Graphs (GraphRAG)](https://arxiv.org/abs/2501.00309))|[Yes](https://github.com/Graph-RAG/GraphRAG/)|
 |2024-08-15|Arxiv|[Graph Retrieval-Augmented Generation: A Survey](https://arxiv.org/abs/2408.08921)|[Yes](https://github.com/pengboci/GraphRAG-Survey)|
+|2024-05-10|KDD 2024|[A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models](https://arxiv.org/abs/2405.06211)|No|
 
 
 # 🥇 Benchmark
@@ -41,7 +45,7 @@ We collect the recent influential papers about RAG especially RAG with KGs. The 
 |18 domains|Complex QA|[UltraDomain](https://huggingface.co/datasets/TommyChien/UltraDomain)|-|
 |General|Fact Verification|[FACTKG](https://github.com/jiho283/FactKG?tab=readme-ov-file)|[DBpedia](https://www.dbpedia.org/)|
 |General|Multi-hop QA|[HotpotQA](https://hotpotqa.github.io/)|Wikipedia|
-
+|Medical|Medical QA & Diagnostic support|[DDXPlus](https://github.com/mila-iqia/ddxplus)|-|
 
 
 
