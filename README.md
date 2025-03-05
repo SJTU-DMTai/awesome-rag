@@ -17,6 +17,8 @@ We collect the recent influential papers about RAG especially RAG with KGs. The 
 |2025-02-08|NAACL 2025|[Knowledge Graph-Guided Retrieval Augmented Generation](https://arxiv.org/abs/2502.06864)|[Yes](https://github.com/nju-websoft/KG2RAG)|Graphs for Knowledge Indexing & Graphs as Knowledge Carrier|
 |2025-02-06|The ACM Web Conference 2025|[MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot](https://arxiv.org/abs/2502.04413)|[Yes](https://github.com/SNOWTEAM2023/MedRAG?tab=readme-ov-file)||
 |2024-12-17|Arxiv|[SimGRAG: Leveraging Similar Subgraphs for Knowledge Graphs Driven Retrieval-Augmented Generation](https://arxiv.org/abs/2412.15272)|[Yes](https://github.com/YZ-Cai/SimGRAG)||
+|2024-10-28|ICLR 2025|[Simple Is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation](https://arxiv.org/abs/2410.20724)|[Yes](https://github.com/Graph-COM/SubgraphRAG)||
+|2024-10-08|Arxiv|[LightRAG: Simple and Fast Retrieval-Augmented Generation](https://arxiv.org/abs/2410.05779)|[Yes](https://github.com/HKUDS/LightRAG)||
 |2024-05-23|NeurIPS 2024|[HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models](https://arxiv.org/abs/2405.14831)|[Yes](https://github.com/OSU-NLP-Group/HippoRAG)||
 |2024-04-24|Arxiv|[From Local to Global: A Graph RAG Approach to Query-Focused Summarization](https://arxiv.org/abs/2404.16130)|[Yes](https://github.com/microsoft/graphrag)|*Graphs as Knowledge Carrier & <br /> Knowledge Graph Construction from Corpus*|
 
@@ -38,6 +40,7 @@ We collect the recent influential papers about RAG especially RAG with KGs. The 
 |General|Simple QA|[WebQSP](https://www.microsoft.com/en-us/download/details.aspx?id=52763)|[Freebase](https://developers.google.com/freebase/)|
 |General|Multi-hop Reasoning|[CWQ](https://huggingface.co/datasets/drt/complex_web_questions)|[Freebase](https://developers.google.com/freebase/)|
 |Movie|Multi-hop Reasoning|[MetaQA](https://github.com/yuyuz/MetaQA)|Movie knowledge base(inclued in dataset)|
+|General|Multi-hop Reasoning|[MultiHop-RAG](https://github.com/yixuantt/MultiHop-RAG/)|-|
 |General|Large-scale Complex QA|[LC-QuAD v2](https://huggingface.co/datasets/mohnish/lc_quad)|[Wikidata](https://research.google/pubs/wikidata-a-free-collaborative-knowledge-base/) or [DBpedia](https://www.dbpedia.org/)|
 |General|Large-scale Complex QA|[KQAPro](https://huggingface.co/datasets/drt/kqa_pro)|[Wikidata](https://research.google/pubs/wikidata-a-free-collaborative-knowledge-base/)|
 |General|Complex QA|[Mintaka](https://huggingface.co/datasets/AmazonScience/mintaka)|[Wikidata](https://research.google/pubs/wikidata-a-free-collaborative-knowledge-base/)|
