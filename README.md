@@ -1,4 +1,4 @@
-# Awesome RAG Papers
+# Awesome GraphRAG
 This is a repo contains a list of papers about RAG, especially RAG with Knowledge Graphs
 
 # Introduction
@@ -11,7 +11,12 @@ Combining RAG with **Knowledge Graphs (KGs)** emerges as a promising solution to
 We collect the recent influential papers about RAG especially RAG with KGs. The following papers are listed in chronological order of publication.
 
 
-# Paper List
+# 📑 Research Paper
+|Date|Venue|Title|Code|Category|
+|:---:|:---:|:---:|:---:|:---:|
+|2024-04-24|Arxiv|[From Local to Global: A Graph RAG Approach to Query-Focused Summarization](https://arxiv.org/abs/2404.16130)|[Yes](https://github.com/microsoft/graphrag)|*Graphs as Knowledge Carrier & <br /> Knowledge Graph Construction from Corpus*|
+
+
 ## 2024
 |Date|Venue|Title|Code|Description|
 |:-----:|:------:|:------------:|:----:|:-----:|
