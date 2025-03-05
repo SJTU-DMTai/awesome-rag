@@ -38,16 +38,16 @@ We collect the recent influential papers about RAG especially RAG with KGs. The 
 |General|Simple QA|[SimpleQuestion](https://huggingface.co/datasets/fbougares/simple_questions_v2/tree/main)|[Freebase](https://developers.google.com/freebase/)|
 |General|Simple QA|[WebQ](https://huggingface.co/datasets/Stanford/web_questions)|[Freebase](https://developers.google.com/freebase/)|
 |General|Simple QA|[WebQSP](https://www.microsoft.com/en-us/download/details.aspx?id=52763)|[Freebase](https://developers.google.com/freebase/)|
-|General|Multi-hop Reasoning|[CWQ](https://huggingface.co/datasets/drt/complex_web_questions)|[Freebase](https://developers.google.com/freebase/)|
-|Movie|Multi-hop Reasoning|[MetaQA](https://github.com/yuyuz/MetaQA)|Movie knowledge base(inclued in dataset)|
-|General|Multi-hop Reasoning|[MultiHop-RAG](https://github.com/yixuantt/MultiHop-RAG/)|-|
+|General|Multi-hop QA|[CWQ](https://huggingface.co/datasets/drt/complex_web_questions)|[Freebase](https://developers.google.com/freebase/)|
+|Movie|Multi-hop QA|[MetaQA](https://github.com/yuyuz/MetaQA)|Movie knowledge base(inclued in dataset)|
+|General|Multi-hop QA|[MultiHop-RAG](https://github.com/yixuantt/MultiHop-RAG/)|-|
+|General|Multi-hop QA|[HotpotQA](https://hotpotqa.github.io/)|Wikipedia|
 |General|Large-scale Complex QA|[LC-QuAD v2](https://huggingface.co/datasets/mohnish/lc_quad)|[Wikidata](https://research.google/pubs/wikidata-a-free-collaborative-knowledge-base/) or [DBpedia](https://www.dbpedia.org/)|
 |General|Large-scale Complex QA|[KQAPro](https://huggingface.co/datasets/drt/kqa_pro)|[Wikidata](https://research.google/pubs/wikidata-a-free-collaborative-knowledge-base/)|
 |General|Complex QA|[Mintaka](https://huggingface.co/datasets/AmazonScience/mintaka)|[Wikidata](https://research.google/pubs/wikidata-a-free-collaborative-knowledge-base/)|
 |General|Complex QA|[GrailQA](https://dki-lab.github.io/GrailQA/)|[Freebase](https://developers.google.com/freebase/)|
 |18 domains|Complex QA|[UltraDomain](https://huggingface.co/datasets/TommyChien/UltraDomain)|-|
 |General|Fact Verification|[FACTKG](https://github.com/jiho283/FactKG?tab=readme-ov-file)|[DBpedia](https://www.dbpedia.org/)|
-|General|Multi-hop QA|[HotpotQA](https://hotpotqa.github.io/)|Wikipedia|
 |Medical|Medical QA & Diagnostic support|[DDXPlus](https://github.com/mila-iqia/ddxplus)|-|
 
 
