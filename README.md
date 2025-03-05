@@ -12,7 +12,7 @@ We collect the recent influential papers about RAG especially RAG with KGs. The 
 
 
 # 📑 Research Paper
-|Date|Venue|Title|Code|Category|
+|Date|Venue|Title|Code|Notes|
 |:---:|:---:|:---:|:---:|:---:|
 |2025-02-08|NAACL 2025|[Knowledge Graph-Guided Retrieval Augmented Generation](https://arxiv.org/abs/2502.06864)|[Yes](https://github.com/nju-websoft/KG2RAG)|Graphs for Knowledge Indexing & Graphs as Knowledge Carrier|
 |2025-02-06|The ACM Web Conference 2025|[MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot](https://arxiv.org/abs/2502.04413)|[Yes](https://github.com/SNOWTEAM2023/MedRAG?tab=readme-ov-file)||
