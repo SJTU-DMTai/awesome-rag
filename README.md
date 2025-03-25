@@ -1,5 +1,11 @@
 # Awesome GraphRAG
-This is a repo contains a list of papers about RAG, especially RAG with Knowledge Graphs
+<div align="center">
+    <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/AwesomeGraphRAG-welcome-red.svg"/></a>
+    <a href="http://makeapullrequest.com"><img src="https://img.shields.io/github/stars/SJTU-DMTai/awesome-rag"/></a>
+</div>
+<div align="center">
+  This repository contains a curated list of resources on GraphRAG. Continuously updating, stay tuned!
+</div>
 
 # Introduction
 **Large language models (LLMs)** have demonstrated remarkable capabilities across diverse tasks, achieving significant advancements in text comprehension, question answering, and content generation. However, their performance in knowledge-intensive tasks, particularly those requiring domain expertise, remains suboptimal due to the folllowing limitations: their pretrained knowledge, though broad, lacks depth in specialized areas due to reliance on general-domain data, resulting in inconsistencies with current domain standards; they struggle with precise, multi-step reasoning required by domain-specific rules, often failing to maintain logical consistency and accuracy in complex reasoning chains; and they exhibit limited context sensitivity, frequently misinterpreting or oversimplifying domain-specific terms and concepts that vary meaning based on context.
