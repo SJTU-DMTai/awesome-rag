@@ -4,7 +4,10 @@
     <a href="http://makeapullrequest.com"><img src="https://img.shields.io/github/stars/SJTU-DMTai/awesome-rag"/></a>
 </div>
 <div align="center">
-  This repository contains a curated list of resources on GraphRAG. Continuously updating, stay tuned!
+  This repository contains a curated list of resources on GraphRAG. 
+</div>
+<div align="center">
+    Continuously updating, stay tuned!
 </div>
 
 # Introduction
