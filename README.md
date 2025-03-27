@@ -55,9 +55,9 @@ We collect the recent influential papers and benchmarks about GraphRAG. The foll
 |[WebQSP](https://www.microsoft.com/en-us/download/details.aspx?id=52763)|Simple QA|A general simple QA dataset finishing semantic parsing and QA tasks based on Freebase.|EM|
 |[MuSiQue](https://github.com/StonyBrookNLP/musique)|Multi-hop QA|A general multi-hop QA dataset with implicit in-data knowledge, testing multi-step reasoning ability.|answer_f1, support_f1|
 |[2WikiMultihopQA](https://github.com/Alab-NII/2wikimultihop)|Multi-hop QA|A general multi-hop QA dataset with in-data implicit knowledge, emphasizing cross-Wikipedia paragraph reasoning.|EM, F1 Score|
-|[HotpotQA](https://hotpotqa.github.io/)|Multi-hop QA|A question answering dataset featuring natural, multi-hop questions, with strong supervision for supporting facts to enable more explainable question answering systems based on Wikipedia dump.|EM, F1 Score|
+|[HotpotQA](https://hotpotqa.github.io/)|Multi-hop QA|A question answering dataset featuring natural, multi-hop questions, with strong supervision for supporting facts to enable more explainable question answering systems based on Wikipedia dump.|EM, F1 Score, Accuracy, Recall|
 |[CWQ](https://huggingface.co/datasets/drt/complex_web_questions)|Multi-hop QA|A dataset for answering complex questions that require reasoning over multiple web snippets via Freebase.|Accuracy|
-|[MultiHop-RAG](https://github.com/yixuantt/MultiHop-RAG/)|Multi-hop QA|A Dataset for Evaluating Retrieval-Augmented Generation Across Documents.|Hits@10, Hits@4, MAP@10, MRR@10|
+|[MultiHop-RAG](https://github.com/yixuantt/MultiHop-RAG/)|Multi-hop QA|A Dataset for Evaluating Retrieval-Augmented Generation Across Documents.|Hits@10, Hits@4, MAP@10, MRR@10, Accuracy, Recall|
 |[MetaQA](https://github.com/yuyuz/MetaQA)|Multi-hop QA|A movie-domain multi-hop QA dataset relying on the in-data movie knowledge base for reasoning.|Accuracy|
 |[Mintaka](https://huggingface.co/datasets/AmazonScience/mintaka)|Complex QA|Mintaka is a complex, natural, and multilingual question answering (QA) dataset composed of 20,000 question-answer pairs elicited from MTurk workers and annotated with Wikidata question and answer entities.|EM, F1 Score, Hits@1|
 |[GrailQA](https://dki-lab.github.io/GrailQA/)|Complex QA|A a new large-scale, high-quality dataset for question answering on knowledge bases (KBQA) on Freebase with 64,331 questions annotated with both answers and corresponding logical forms in different synta|Accuracy|
@@ -67,7 +67,7 @@ We collect the recent influential papers and benchmarks about GraphRAG. The foll
 |[KQAPro](https://huggingface.co/datasets/drt/kqa_pro)|Large-scale Complex QA|A large-scale dataset of complex question answering over Wikidata. The questions are very diverse and challenging, requiring multiple reasoning capabilities including compositional reasoning, multi-hop reasoning, quantitative comparison, set operations, and etc.|Accuracy|
 |[FACTKG](https://github.com/jiho283/FactKG?tab=readme-ov-file)|Fact Verification|Fact Verification via Reasoning on Knowledge Graphs. It consists of 108k natural language claims with five types of reasoning: One-hop, Conjunction, Existence, Multi-hop, and Negation based on DBpedia.|Accuracy|
 |[DDXPlus](https://github.com/mila-iqia/ddxplus)|Medical QA & Diagnostic support|A new large-scale dataset for Automatic Symptom Detection (ASD) and Automatic Diagnosis (AD) systems in the medical domain.|IL (Interaction Length), GTPA (Ground Truth Probability Above Threshold), DDR/DDP/DDF1 (Differential Diagnosis Recall/Precision/F1), DSP/DSR/DSF1 (Severity Precision/Recall/F1)|
-|[NarrativeQA](https://huggingface.co/datasets/deepmind/narrativeqa)|QA & **Discourse Understanding**|An English-lanaguage dataset of stories and corresponding questions designed to test reading comprehension, especially on long documents.|F1|
+|[NarrativeQA](https://huggingface.co/datasets/deepmind/narrativeqa)|QA & **Discourse Understanding**|An English-lanaguage dataset of stories and corresponding questions designed to test reading comprehension, especially on long documents.|BLEU, MET, ROU|
 
 
 # 📊 Existing Knowledge Graphs
