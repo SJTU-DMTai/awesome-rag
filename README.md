@@ -36,6 +36,12 @@ We collect the recent influential papers and benchmarks about GraphRAG. The foll
 |2024-04-24|Arxiv|[From Local to Global: A Graph RAG Approach to Query-Focused Summarization](https://arxiv.org/abs/2404.16130)|[Yes](https://github.com/microsoft/graphrag)|*Graphs as Knowledge Carrier(Knowledge Graph Construction from Corpus)*|
 
 
+# Hot Methods
+|Date|Venue|Method|Graph Type|Index Component|Retrieval Primitive|Retrieval Granularity|Code|Notes|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|**2024** 05-23|NeurIPS 2024|[HippoRAG](https://arxiv.org/abs/2405.14831)|Knowledge Graph|Entity|Entities in question|Chunk|[Yes](https://github.com/OSU-NLP-Group/HippoRAG)|*Graphs as Knowledge Carrier(KG construction from corpus)*|
+
+
 # 🧐 Survey Papers
 |Date|Venue|Title|Repo|
 |:---:|:---:|:---:|:---:|
