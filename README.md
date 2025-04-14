@@ -4,7 +4,7 @@
     <a href="http://makeapullrequest.com"><img src="https://img.shields.io/github/stars/SJTU-DMTai/awesome-rag"/></a>
 </div>
 <div align="center">
-  This repository contains a curated list of resources on GraphRAG. 
+  This repository contains a curated list of resources on graph-based RAG methods. 
 </div>
 <div align="center">
     Continuously updating, stay tuned!
@@ -25,6 +25,7 @@ We collect the recent influential papers and benchmarks about GraphRAG. The foll
 |:---:|:---:|:---:|:---:|:---:|
 |2025-03-18|Arxiv|[KG-IRAG: A Knowledge Graph-Based Iterative Retrieval-Augmented Generation Framework for Temporal Reasoning](https://arxiv.org/abs/2503.14234)|No|*Graphs for Knowledge Indexing & Graphs as Knowledge Carrier(KG construction from corpus)*|
 |2025-03-13|Arxiv|[Retrieval-Augmented Generation with Hierarchical Knowledge](https://arxiv.org/abs/2503.10150)|[Yes](https://github.com/hhy-huang/HiRAG)|*Graphs for Knowledge Indexing & Graphs as Knowledge Carrier(KG construction from corpus)*|
+|2025-03-06|Arxiv|[In-depth Analysis of Graph-based RAG in a Unified Framework](https://arxiv.org/abs/2503.04338)|[Yes](https://github.com/JayLZhou/GraphRAG)|*modularizing and decoupling some graph-based RAG methods to unveil the mystery behind them and share fun and valuable insights!*|
 |2025-02-20|Arxiv|[(HippoRAG 2)From RAG to Memory: Non-Parametric Continual Learning for Large Language Models](https://arxiv.org/abs/2502.14802)|[Yes](https://github.com/OSU-NLP-Group/HippoRAG)|*Graphs for Knowledge Indexing & Graphs as Knowledge Carrier(KG construction from corpus)*|
 |2025-02-14|Arxiv|[ArchRAG: Attributed Community-based Hierarchical Retrieval-Augmented Generation](https://arxiv.org/abs/2502.09891)|No|*Graphs for Knowledge Indexing & Graphs as Knowledge Carrier(KG construction from corpus)*|
 |2025-02-08|NAACL 2025|[(KG2RAG)Knowledge Graph-Guided Retrieval Augmented Generation](https://arxiv.org/abs/2502.06864)|[Yes](https://github.com/nju-websoft/KG2RAG)|*Graphs for Knowledge Indexing & Graphs as Knowledge Carrier(KG construction from corpus)*|
@@ -37,9 +38,23 @@ We collect the recent influential papers and benchmarks about GraphRAG. The foll
 
 
 # 🔥 Hot Methods
-|Date|Venue|Method|Graph Type|Index Component|Retrieval Primitive|Retrieval Granularity|Code|Notes|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|**2024** 05-23|NeurIPS 2024|[HippoRAG](https://arxiv.org/abs/2405.14831)|Knowledge Graph|Entity|Entities in question|Chunk|[Yes](https://github.com/OSU-NLP-Group/HippoRAG)|*Graphs as Knowledge Carrier(KG construction from corpus)*|
+|Date|Method|Graph Type|Index Component|Retrieval Primitive|Retrieval Granularity|Code|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|2024-10-31|[fast-graphrag](https://github.com/circlemind-ai/fast-graphrag?tab=readme-ov-file)|Textual Knowledge Graph|Entity|Entities in question|Entity, Relationship, Chunk|[Yes](https://github.com/circlemind-ai/fast-graphrag?tab=readme-ov-file)|
+|2024-10-08|[LightRAG_Local](https://arxiv.org/abs/2410.05779)|Rich Knowledge Graph|Entity, Relationship|Low-level keywords in question|Entity, Relationship, Chunk|[Yes](https://github.com/hkuds/lightrag)|
+|2024-10-08|[LightRAG_Global](https://arxiv.org/abs/2410.05779)|Rich Knowledge Graph|Entity, Relationship|High-level keywords in question|Entity, Relationship, Chunk|[Yes](https://github.com/hkuds/lightrag)|
+|2024-10-08|[LightRAG_Hybrid](https://arxiv.org/abs/2410.05779)|Rich Knowledge Graph|Entity, Relationship|Both high- and low-level keywords|Entity, Relationship, Chunk|[Yes](https://github.com/hkuds/lightrag)|
+|2024-05-23|[HippoRAG](https://arxiv.org/abs/2405.14831)|Knowledge Graph|Entity|Entities in question|Chunk|[Yes](https://github.com/OSU-NLP-Group/HippoRAG)|
+|2024-04-24|[GraphRAG_Local](https://arxiv.org/abs/2404.16130)|Textual Knowledge Graph|Entity, Community|Question vector|Entity, Relationship, Chunk, Community|[Yes](https://github.com/microsoft/graphrag)|
+|2024-04-24|[GraphRAG_Global](https://arxiv.org/abs/2404.16130)|Textual Knowledge Graph|Community|Question vector|Community|[Yes](https://github.com/microsoft/graphrag)|
+|2024-01-31|[RAPTOR](https://arxiv.org/abs/2401.18059)|Tree|Tree node|Question vector|Tree node|[Yes](https://github.com/parthsarthi03/RAPTOR)|
+
+Note: This repo summarizes the graph constructed from the corpus into the following categories according to [2]:
+1. **Passage Graph**: each chunk represents a node. If two chunks contain a number of the same entities larger than a threshold, link an edge for these two nodes.
+2. **Tree**: a tree is built progressively by clustering leaf nodes at each layer and using an LLM to generate higher-level summary nodes for clusters with multiple children.
+3. **Knowledge Graph**: extracting entities and relationships from each chunk
+4. **Textual Knowledge Graph**: a specialized KG    , with the key difference being that in a TKG, each entity and relationship is assigned a brief textual description.
+5. **Rich Knowledge Graph**: an extended version of TKG, containing more information, including textual descriptions for entities and relationships, as well as keywords for relationships.
 
 
 # 🧐 Survey Papers
@@ -86,4 +101,5 @@ We collect the recent influential papers and benchmarks about GraphRAG. The foll
 
 
 # ✅ Citation
-[1] A Survey of Graph Retrieval-Augmented Generation  for Customized Large Language Models. 
+- [1] A Survey of Graph Retrieval-Augmented Generation  for Customized Large Language Models.
+- [2] In-depth Analysis of Graph-based RAG in a Unified Framework.
